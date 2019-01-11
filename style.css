@@ -1,0 +1,58 @@
+/* html element styles*/
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(160, 199, 231);
+ }
+
+/* class styles */
+.main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    height: calc(100vh);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(160, 199, 231);
+}
+
+.title{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.imgHolder{
+    padding-bottom: 75px;
+    border-bottom: 2px solid rgb(241, 177, 79);
+    align-content: center;
+    justify-content: center;
+}
+
+.dropForm{
+    padding: 40px 40px;
+}
+
+.about{
+    padding-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sectionHeader{
+    padding: .25em .5em;
+}
+
+.calcButton{
+    padding-top: 20px;
+    text-align: center;
+}
